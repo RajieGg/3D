@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: monospace;
+    background-color: black;
+}
+header {
+    height: 65px;
+}
+.logo{
+
+    position: absolute;
+    width: 150px;
+    margin: -45px 300px 400px 100px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 22px;
+}
+
+nav a:focus {
+    outline: 2px solid rgb(255, 255, 255);
+    outline-offset: 4px;
+    color: white;
+}
+
